@@ -1,0 +1,179 @@
+.header {
+  display: flex;
+  height: 60px;
+}
+
+.company-name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  font-style: bold;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  ;
+}
+
+.company-name,
+.pin-prompt {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.company-logo {
+  display: flex;
+}
+
+.pin-prompt {
+  display: flex;
+  margin: 0px;
+  background-color: #b81818;
+  color: white;
+  padding-left: 30px;
+  height: 40px;
+  font-weight: 900;
+  font-size: 22px;
+  align-items: center;
+  ;
+}
+
+.p1 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  ;
+  padding-top: 20px;
+}
+
+.p2 {
+
+  align-items: center;
+  margin-top: 0px;
+  max-width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.p1,
+.p2 {
+  background-color: #ecfbc3;
+  text-align: center;
+}
+
+.warning-symbol {
+  position: absolute;
+  background: none;
+  width: 30px;
+  top: 24.6%;
+  left: 36%;
+  ;
+}
+
+body {
+  background-color: #ecfbc3;
+  margin: 0px;
+  ;
+}
+
+.pin-input-box {
+  display: flex;
+  border-width: 4px;
+  border-color: grey;
+  border-image: linear-gradient(to top, grey, rgba(128, 128, 128, 0.529) 60%) 1;
+  color: white;
+  width: 235px;
+  height: 27px;
+  ;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  ;
+  align-items: center;
+}
+
+.quick-cash-options {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3px;
+  row-gap: 7px;
+  border: none;
+  max-width: 200px;
+  margin-left: 30%;
+  margin-top: 1%;
+}
+
+.dollar-buttons {
+  width: 68px;
+  height: 28px;
+  background-color: rgb(0, 108, 183);
+  font-weight: bolder;
+  font-size: medium;
+  color: white;
+}
+
+.other-transactions {
+  position: absolute;
+  width: 250px;
+  ;
+  left: 48%;
+  top: 39.5%;
+}
+
+.cancel-button {
+  position: absolute;
+  background-color: rgb(221, 80, 59);
+  border: none;
+  ;
+  height: 28px;
+  color: white;
+  font-weight: bold;
+  font-size: 90%;
+  text-align: left;
+  width: 90px;
+  left: 30.4%;
+  top: 51%;
+
+  ;
+}
+
+.fast-cash {
+  font-family: roboto;
+  position: absolute;
+  font-weight: bold;
+  top: 33%;
+  left: 30.17%;
+  color: rgb(164, 181, 158);
+}
+
+.intro-greeting-header {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.returning-or-new-customer {
+  background-color: lightpink;
+  display: flex;
+  justify-content: space-around
+}
+
+.new-customer-button,
+.returning-customer-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.new-customer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 105, 105);
+
+}
+
+.returning-customer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
